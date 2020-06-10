@@ -154,5 +154,49 @@ Some outer element after. This will be in its own slide.
 ![CMB
 Map](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/WMAP_2010.png/440px-WMAP_2010.png)
 
-![CMB Power
-Spectrum](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/PowerSpectrumExt.svg/600px-PowerSpectrumExt.svg.png)
+![2nd image starts a new
+slide](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/PowerSpectrumExt.svg/600px-PowerSpectrumExt.svg.png)
+
+Nested columns
+--------------
+
+::: {.columns}
+::: {.column width="50%"}
+-   inner columns will disappeared if this exist
+
+::: {.columns}
+::: {.column width="50%"}
+-   inner left
+:::
+
+::: {.column width="50%"}
+1.  inner right
+:::
+:::
+:::
+
+::: {.column width="50%"}
+-   outer right
+:::
+:::
+
+Nested columns
+--------------
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.columns}
+::: {.column width="50%"}
+-   inner left flatten
+:::
+
+::: {.column width="50%"}
+1.  with inner right
+:::
+:::
+:::
+
+::: {.column width="50%"}
+-   outer right
+:::
+:::
