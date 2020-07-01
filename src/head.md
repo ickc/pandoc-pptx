@@ -14,13 +14,13 @@ $$E \neq mc^3$$
 
 You bet $E = mc^2$.
 
-## 2 columns
+## 2 columns with width overriden to 50-50
 
 ::::::::::::::{.columns}
-:::{.column width="50%"}
+:::{.column width="25%"}
 - Simple
 :::
-:::{.column width="50%"}
+:::{.column width="75%"}
 1. simple
 :::
 ::::::::::::::
@@ -29,13 +29,13 @@ You bet $E = mc^2$.
 some notes without markdown
 :::
 
-## 2 columns with images
+## 2 columns with images with width overriden to 50-50
 
 ::::::::::::::{.columns}
-:::{.column width="50%"}
+:::{.column width="30%"}
 ![CMB Map](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/WMAP_2010.png/440px-WMAP_2010.png)
 :::
-:::{.column width="50%"}
+:::{.column width="70%"}
 ![CMB Power Spectrum](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/PowerSpectrumExt.svg/600px-PowerSpectrumExt.svg.png)
 :::
 ::::::::::::::
